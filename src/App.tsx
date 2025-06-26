@@ -15,7 +15,8 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="*" element={<Index />} />
+          <Route path="/damascus-delights-website-oasis/" element={<Index />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
